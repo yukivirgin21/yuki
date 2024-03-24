@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Feedback on your course - GIC</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name=" Student name" required="">
+        </div>
+        <div>
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" required="">
+        </div>
+        <div>
+            <label for="P number">P number:</label>
+            <input type="text" id="P number" name="P number" required="">
+        </div>
+        <div>
+            <label for="satisfaction">Overall Satisfaction:</label>
+            <select id="satisfaction" name="satisfaction" required="">
+                <option value="" disabled="" selected="">Select Satisfaction Level</option>
+                <option value="very-satisfied">Very Satisfied</option>
+                <option value="satisfied">Satisfied</option>
+                <option value="neutral">Neutral</option>
+                <option value="unsatisfied">Unsatisfied</option>
+                <option value="very-unsatisfied">Very Unsatisfied</option>
+            </select>
+        </div>
+        <div>
+            <label for="recommend">thoughts on recommending the course?</label><br>
+            <input type="radio" id="recommend-yes" name="recommend" value="yes, as it holds alot of value in the real world" required="">
+            <label for="recommend-yes">yes, as it holds alot of value in the real world</label><br>
+            <input type="radio" id="recommend-no" name="recommend" value="no, too much hard work and time, not worth it">
+            <label for="recommend-no">no, too much hard work and time, not worth it</label>
+        </div>
+        <div>
+            <label for="improvements">Suggestions to help improve the course:</label>
+            <textarea id="improvements" name="improvements" rows="3"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+  </body>
+</html>
